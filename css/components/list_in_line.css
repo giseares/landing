@@ -1,0 +1,30 @@
+.footer {
+	padding: 30px;
+	background: rgb(30, 30, 30);
+	color: lightgrey;
+	text-align: center;
+}
+
+
+
+.list-in-line {
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+
+.list-in-line li {
+	padding: 0px;
+	display: inline;
+	margin: 8px;
+	color: grey;
+	font-size: 24px;
+}
+
+.list-in-line a {
+	color: rgb(75, 73, 73);
+}
+
+li a:hover {
+	color: black;
+}

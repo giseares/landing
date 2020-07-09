@@ -1,0 +1,40 @@
+/* Your card CSS file */
+/* CARD AGRUPADORA*/
+.show-cards {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.show-cards h3{
+  margin-top: 300px;
+}
+
+/* CARD CATEGORY*/
+.card-product {
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 3px 3px grey;
+  text-align: left;
+  height: 120px;
+  margin-bottom: 40px;
+ }
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+.card-product h2{
+  color: black;
+  margin: 0;
+  padding-left: 0px;
+}
+
+.card-product p{
+  color: rgb(66, 66, 66);
+  margin: 0;
+  padding-left: 0px;
+  color: rgb(100, 100, 100);
+}
